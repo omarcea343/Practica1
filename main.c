@@ -1,4 +1,6 @@
-#include<stdio.h> 
+#include <stdio.h> 
+#include <windows.h>
+
 int main (){
 	
 	int aux,i,j,k,n=20; 
@@ -20,6 +22,6 @@ int main (){
 	for (k=0;k<n;k++){ 
 		printf(" %d",ordenar[k]); 
 	} 
-
+	system ("pause");
 	return 0; 
 } 
